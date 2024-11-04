@@ -96,23 +96,46 @@ function App() {
         </section>
   
         <section className="experience section" id="experiences">
-          <div className="container flex-center">
-            <h1 className="section-title-01">Experiences</h1>
-            <h2 className="section-title-02">Experiences</h2>
-            <div className="experience"> 
-            <p><span>Social Media Content</span> - <span>Illustration</span> - <span>Typography</span> - <span>Web Design</span> - <span>Photography</span> - <span>Mascot Creation</span> - <span>Branding</span> - <span>Leadership through Organizations</span></p>
-              <aside className="carousel">
-                <div className="carousel__wrapper">
-                  <div className="item" id="slide-1"><img src={frame5} alt="" width="677" height="352"/></div>
-                  <div className="item" id="slide-2"><img src={frame6} alt="" width="677" height="352"/></div>
-                  <div className="item" id="slide-3"><img src={frame7} alt="" width="677" height="352"/></div>
-                  <div className="item" id="slide-4"><img src={frame8} alt="" width="677" height="352"/></div>
-                  <div className="item" id="slide-5"><img src={frame9} alt="" width="677" height="352"/></div>
-                </div>
-              </aside>
-            </div>
+        <div className="container flex-center">
+          <h1 className="section-title-01">Experiences</h1>
+          <h2 className="section-title-02">Experiences</h2>
+          <div className="experience">
+            <p>
+              <span>Social Media Content</span> - <span>Illustration</span> -{" "}
+              <span>Typography</span> - <span>Web Design</span> -{" "}
+              <span>Photography</span> - <span>Mascot Creation</span> -{" "}
+              <span>Branding</span> -{" "}
+              <span>Leadership through Organizations</span>
+            </p>
           </div>
-        </section>
+        </div>
+      </section>
+
+        <div className="container">
+            <aside className="carousel">
+                <div className="carousel__wrapper">
+                    <div className="item" id="slide-1">
+                    <img src={frame5} alt="" width="677" height="352" />
+                    </div>
+                    <div className="item" id="slide-2">
+                    <img src={frame6} alt="" width="677" height="352" />
+                    </div>
+                    <div className="item" id="slide-3">
+                    <img src={frame7} alt="" width="677" height="352" />
+                    </div>
+                    <div className="item" id="slide-4">
+                    <img src={frame8} alt="" width="677" height="352" />
+                    </div>
+                    <div className="item" id="slide-5">
+                    <img src={frame9} alt="" width="677" height="352" />
+                    </div>
+                </div>
+            </aside>
+        </div>
+        
+        
+        
+
       </>
     );
   }
