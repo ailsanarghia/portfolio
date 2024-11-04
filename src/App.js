@@ -16,8 +16,8 @@ function App() {
                 <div class="nav-items">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#services">Services</a>
+                    <a href="#experiences">Experiences</a>
+                    <a href="#portfolio">Portfolio</a>
                     <a href="#contact">Contact</a>
                 </div>
             </div>
@@ -26,9 +26,9 @@ function App() {
     <section class="home flex-center" id="home">
         <div class="home-container">
             <div class="media-icons">
-              <a href="#"><i class="fab fa-facebook-f"></i></a> 
+              <a href="https://www.linkedin.com/in/ailsa-anarghia-121066232/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
               <a href="https://www.instagram.com/ailsanarghia/" target="_blank"><i class="fab fa-instagram"></i></a>  
-              <a href="#"><i class="fab fa-twitter"></i></a>  
+              <a href="mailto:ailsaanarghia@gmail.com?subject=Hello Ilsa&body=I'm captivated by your portfolio and would love to collaborate with you"><i class="fa fa-envelope"></i></a>  
             </div>
             <div class="info">
                 <h2>Hi, I am Ailsa</h2>
@@ -62,8 +62,8 @@ function App() {
         <div class="about-info">
             <div class="description">
                 <h3>I'm Ailsa</h3>
-                <h4>A creative minded<span>graphic designer</span> based in <span>Jakarta</span></h4>
-                <p>I design and develop services for customers specializing creating stylish, sleek design, branding and creating impactful something for all. My passion is to design digital user experience through meaningful interactions by art. Check out my portfolio</p>
+                <h4>A creative minded<span> graphic designer</span> based in <span>Jakarta</span></h4>
+                <p>I design and develop services for customers specializing creating stylish, sleek design, branding and creating impactful something for all. My passion is to design experience through meaningful art. Check out my portfolio!</p>
             </div>
             <ul class="professional-list">
                   <li class="list-item">
@@ -73,15 +73,19 @@ function App() {
                  <li class="list-item">
                     <h3>2K+</h3>
                     <span>Happy<br />Customers</span>
+    
                 </li>
-                 <li class="list-item" />
+                <li class="list-item">
                     <h3>50+</h3>
                     <span>Success<br />Projects</span>
+    
+                </li>
             </ul>
             <a href="" class="btn">Download CV <i class="fas fa-download"></i></a>
         </div>
         </div>
     </div>
+    
     </section>
     </>
   );

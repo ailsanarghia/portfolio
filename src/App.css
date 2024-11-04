@@ -61,9 +61,19 @@ li{
 }
 
 
+::-webkit-scrollbar{
+    width: 10px;
+    background: var(--scroll-bar-color);
+}
 
+::-webkit-scrollbar-thumb{
+    background: var(--scroll-thumb-color);
+    border-radius: 2em;
+}
 
-
+::-webkit-scrollbar-thumb:hover{
+    background: var(--scroll-thumb-hover-color);
+}
 
 
 /*=======Header=======*/
@@ -73,22 +83,30 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(35px);
     transition: .6s ease;
-    background-color: rgba(255, 255, 255, 0.8); /* Added background for visibility */
+    background-color: rgba(242, 242, 242, 0.8); /* Added background for visibility */
+}
+
+header.sticky{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: var(--box-shadow);
 }
 
 .nav-bar{
-    height: calc(4rem + 1rem);
-    max-width: 1250px;
+    height: calc(3.5rem + 1rem);
+    max-width: 1100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto; /* Simplified margin */
-    padding: 0 20px;
+    padding: 0 15px;
     transition: .6s ease;
 }
 
+header.sticky .nav-bar{
+    height: calc(2rem + 1rem);
+}
 
 .nav-bar .logo{
     color: var(--first-color);
@@ -98,7 +116,7 @@ header {
 
 .nav-items a{
     color: var(--first-color);
-    font-size: var(--normal-font-size);
+    font-size: var(--small-font-size);
     font-weight: 500;
 }
 
@@ -293,6 +311,53 @@ border-radius: 10px;
 .Frame-4 {
     max-width: 6%;
     min-width: 450px;
+}
+
+.about-info .description{
+    max-width: 600px;
+}
+
+.about-info .description h3{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-info .description h4{
+    font-size: 1.3em;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+
+.about-info .description h4 span{
+    color: var(--third-color);
+}
+
+.description h4 span:hover {
+    background-color: #EBFF00;
+}
+
+.about-info .description p{
+    color: var(--third-color);
+    font-size: var(--normal-font-size);
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid;
+}
+
+.about-info .professional-list{
+    display: flex;
+    column-gap: 30px;
+}
+
+.about-info .professional-list .list-item h3{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.about-info .professional-list .list-item span{
+    color: var(--third-color);
+    font-size: var(--small-font-size);
 }
 
 
