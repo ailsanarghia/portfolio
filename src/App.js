@@ -18,13 +18,16 @@ import { Fade, Slide } from 'react-awesome-reveal';
 
 function App() {
   return (
-    <div>
+    <div>   
+
+
       <header>
         <div className="nav-bar">
           <a href="#" className="logo">Ailsa</a>
           <div className="navigation">
             <div className="nav-items">
-              <a href="#home">Home</a>
+              <div class="nav-close-btn"></div>
+              <a class="active" href="#home">Home</a>
               <a href="#about">About</a>
               <a href="#experiences">Experiences</a>
               <a href="#portfolio">Portfolio</a>
@@ -57,7 +60,7 @@ function App() {
                   loop: true,
                 }}
               />
-            </h3><Fade delay={1e2} cascade damping={1e-1}>
+            </h3><Fade delay={1e3} cascade damping={1e-1}>
             <p>I do design, I create design, I enjoy design. Mastering to export feelings through arts.</p></Fade>
             <a href="#" className="btn">Contact Me <i className="fas fa-arrow-circle-right"></i></a>
           </div><Fade delay={1e2} cascade damping={1e-1}>
@@ -78,9 +81,9 @@ function App() {
             </div>
             <div className="about-info">
               <div className="description">
-                <h3>I'm Ailsa</h3>
-                <h4>A creative-minded <span>graphic designer</span> based in <span>Jakarta</span></h4>
-                <p>I design and develop services for customers, specializing in creating stylish, sleek design, branding, and impactful experiences for all. My passion is to design through meaningful art. Dig Deeper!</p>
+                <h3>I'm Ailsa</h3><Slide>
+                <h4>A creative-minded <span>graphic designer</span> based in <span>Jakarta</span></h4></Slide><Fade delay={1e3} cascade damping={1e-1}>
+                <p>I design and develop services for customers, specializing in creating stylish, sleek design, branding, and impactful experiences for all. My passion is to design through meaningful art. Let's dive deeper!</p></Fade>
               </div>
               <ul className="professional-list">
                 <li className="list-item">
@@ -117,10 +120,10 @@ function App() {
     <div class="m-scroll__title">
       <div>
         <h1>
-        <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> SocMed Content -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Branding -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Typography -</a><a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Photography -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Leadership</a>  &nbsp;
+        <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view">- Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> SocMed Content -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Branding -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Typography -</a><a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Photography -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Leadership </a>  &nbsp;
         </h1>
         <h1>
-        <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> SocMed Content -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Branding -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Typography -</a><a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Photography -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Leadership</a>  &nbsp;
+        <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view">- Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> SocMed Content -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Branding -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Typography -</a><a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Photography -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Leadership </a>  &nbsp;
         </h1>
       </div>
     </div>
@@ -130,10 +133,10 @@ function App() {
     <div class="m-scroll-3__title">
       <div>
         <h1>
-        <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> SocMed Content -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Branding -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Typography -</a><a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Photography -</a><a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Leadership</a>  &nbsp;
+        <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view">- Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> SocMed Content -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Branding -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Typography -</a><a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Photography -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Leadership </a>  &nbsp;
         </h1>
         <h1>
-        <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> SocMed Content -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Branding -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Typography -</a><a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Photography -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Leadership</a>  &nbsp;
+        <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view">- Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> SocMed Content -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Branding -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Typography -</a><a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Photography -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Leadership </a>  &nbsp;
         </h1>
       </div>
     </div>
@@ -143,10 +146,10 @@ function App() {
     <div class="m-scroll-1__title">
       <div>
         <h1>
-        <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> SocMed Content -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Branding -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Typography -</a><a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Photography -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Leadership</a>  &nbsp;
+        <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view">- Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> SocMed Content -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Branding -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Typography -</a><a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Photography -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Leadership </a>  &nbsp;
         </h1>
         <h1>
-        <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> SocMed Content -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Branding -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Typography -</a><a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Photography -</a>  <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Leadership</a>  &nbsp;
+        <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view">- Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> SocMed Content -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Branding -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Typography -</a><a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Photography -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Leadership </a>  &nbsp;
         </h1>
       </div>
     </div>
@@ -156,10 +159,10 @@ function App() {
     <div class="m-scroll-2__title">
       <div>
         <h1>
-        <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> SocMed Content -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Branding -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Typography -</a><a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Photography -</a>  <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Leadership</a>  &nbsp;
+        <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view">- Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> SocMed Content -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Branding -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Typography -</a><a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Photography -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Leadership </a>  &nbsp;
         </h1>
         <h1>
-        <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> SocMed Content -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Branding -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Typography -</a><a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Photography -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Leadership</a>  &nbsp;
+        <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view">- Illustrations -</a> <a href="https://drive.google.com/drive/u/1/folders/11j-bYYA6bJwZom-ZX1nQdoVXXB5hyS7S"> Web Design -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> SocMed Content -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Branding -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Typography -</a><a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Photography -</a> <a href="https://drive.google.com/file/d/1EZ6PrhWU0viqYvoLdcdb3wz2xXouw8Uj/view"> Leadership </a>  &nbsp;
         </h1>
       </div>
     </div>
@@ -176,18 +179,18 @@ function App() {
           <div class="cards-container"> 
           <div class="carousel">
       <div class="group">
-        <div class="card">A</div>
-        <div class="card">B</div>
-        <div class="card">C</div>
-        <div class="card">D</div>
-        <div class="card">D</div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
       </div>
       <div aria-hidden class="group">
-        <div class="card">A</div>
-        <div class="card">B</div>
-        <div class="card">C</div>
-        <div class="card">D</div>
-        <div class="card">D</div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
       </div>
     </div>
 
@@ -196,34 +199,77 @@ function App() {
           <div class="cards-container"> 
           <div class="carousel-ltr">
       <div class="group">
-        <div class="card">A</div>
-        <div class="card">B</div>
-        <div class="card">C</div>
-        <div class="card">D</div>
-        <div class="card">D</div>
+        <div class="card-ltr"></div>
+        <div class="card-ltr"></div>
+        <div class="card-ltr"></div>
+        <div class="card-ltr"></div>
+        <div class="card-ltr"></div>
       </div>
       <div aria-hidden class="group">
-        <div class="card">A</div>
-        <div class="card">B</div>
-        <div class="card">C</div>
-        <div class="card">D</div>
-        <div class="card">D</div>
+        <div class="card-ltr"></div>
+        <div class="card-ltr"></div>
+        <div class="card-ltr"></div>
+        <div class="card-ltr"></div>
+        <div class="card-ltr"></div>
       </div>
     </div>
           </div>
           </section>
-          <div class="contact-container" id="contact">
-
-
-
     </div>
+    <div class="contact-container" id="contact">
+                <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col hidden">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col hidden">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
     </div>
 </div>
           </div>
         </div>
       </section>
     </div>
+
+
   );
 }
-
 export default App;
