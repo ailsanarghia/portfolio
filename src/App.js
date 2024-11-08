@@ -2,13 +2,8 @@ import frame1 from './images/Frame-1.png';
 import frame2 from './images/Frame-2.png';
 import frame3 from './images/Frame-3.jpg';
 import frame4 from './images/FRAME-4.jpg';
-import frame5 from './images/EXP-1.png';
-import frame6 from './images/EXP-2.png';
-import frame7 from './images/EXP-3.png';
-import frame8 from './images/EXP-4.png';
-import frame9 from './images/EXP-5.png';
-import frame10 from './images/EXP-6.png';
-import frame11 from './images/EXP-7.png';
+import frame5 from './images/ABOUTME.png';
+
 
 
 import './App.css';
@@ -23,7 +18,7 @@ function App() {
 
       <header>
         <div className="nav-bar">
-          <a href="#" className="logo">Ailsa</a>
+          <a href="#" className="logo"></a>
           <div className="navigation">
             <div className="nav-items">
               <div class="nav-close-btn"></div>
@@ -31,7 +26,7 @@ function App() {
               <a href="#about">About</a>
               <a href="#experiences">Experiences</a>
               <a href="#portfolio">Portfolio</a>
-              <a href="#contact">Contact</a>
+              <a href="#connect">Connect</a>
             </div>
           </div>
         </div>
@@ -216,17 +211,17 @@ function App() {
           </div>
           </section>
     </div>
-    <div class="contact-container" id="contact">
+    <div class="connect-container" id="connect">
                 <footer class="footer">
     <div class="container">
       <div class="row">
         <div class="footer-col">
-          <h4>company</h4>
+          <h4>Ailsa</h4>
           <ul>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">our services</a></li>
-            <li><a href="#">privacy policy</a></li>
-            <li><a href="#">affiliate program</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="mailto:ailsaanarghia@gmail.com?subject=Hello Ailsa&body=I'm captivated by your portfolio and would love to collaborate with you">Email</a></li>
           </ul>
         </div>
         <div class="footer-col hidden">
@@ -249,12 +244,15 @@ function App() {
           </ul>
         </div>
         <div class="footer-col">
-          <h4>follow us</h4>
+          <h4>Contact Me</h4>
           <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            
+          <a href="mailto:ailsaanarghia@gmail.com?subject=Hello Ailsa&body=I'm captivated by your portfolio and would love to collaborate with you">
+          <i className="fa fa-envelope"></i></a>
+          <a href="https://www.instagram.com/ailsanarghia/" target="_blank" rel="noopener noreferrer">
+           <i className="fab fa-instagram"></i> </a>
+          <a href="https://www.linkedin.com/in/ailsa-anarghia-121066232/" target="_blank" rel="noopener noreferrer">
+          <i className="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
       </div>
