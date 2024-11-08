@@ -55,3 +55,11 @@ function handleWindowResize() {
   width = window.innerWidth;
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+  function myFunction(x) {
+    x.classList.toggle("change");
+    const navItems = document.getElementById("navItems");
+    navItems.classList.toggle("show"); 
+  }
+  // If needed, you can bind your function to the click event here
+});

@@ -22,11 +22,15 @@ function App() {
           <div className="navigation">
             <div className="nav-items">
               <div class="nav-close-btn"></div>
-              <a class="active" href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#experiences">Experiences</a>
-              <a href="#portfolio">Portfolio</a>
-              <a href="#connect">Connect</a>
+              <a href="#about" class="tapered2">ABOUT</a>
+              <a href="#experiences">EXPERIENCES</a>
+              <a href="#portfolio">PORTFOLIO</a>
+              <a href="#connect">CONNECT</a>
+              <div class="burgerbtn" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -56,14 +60,15 @@ function App() {
                 }}
               />
             </h3><Fade delay={1e3} cascade damping={1e-1}>
-            <p>I do design, I create design, I enjoy design. Mastering to export feelings through arts.</p></Fade>
-            <a href="#" className="btn">Contact Me <i className="fas fa-arrow-circle-right"></i></a>
+            <p>I do design, I create design, I enjoy design.</p> 
+            <p>Mastering to export feelings through arts.</p></Fade>
+            <a href="#" className="btn">CONTACT ME <i className="fas fa-arrow-circle-right"></i></a>
           </div><Fade delay={1e2} cascade damping={1e-1}>
           <div className="home-img">
             <img src={frame1} alt="Profile" />
           </div></Fade>
         </div>
-        <a href="#about" className="scroll-down">Scroll Down<i className="fas fa-arrow-down"></i></a>
+        <a href="#about" className="scroll-down">SCROLL DOWN<i className="fas fa-arrow-down"></i></a>
       </section>
 
       <section className="about section" id="about">
@@ -76,7 +81,7 @@ function App() {
             </div>
             <div className="about-info">
               <div className="description">
-                <h3>I'm Ailsa</h3><Slide>
+                <h3>I'm Ailsa Anarghia</h3><Slide>
                 <h4>A creative-minded <span>graphic designer</span> based in <span>Jakarta</span></h4></Slide><Fade delay={1e3} cascade damping={1e-1}>
                 <p>I design and develop services for customers, specializing in creating stylish, sleek design, branding, and impactful experiences for all. My passion is to design through meaningful art. Let's dive deeper!</p></Fade>
               </div>
@@ -224,6 +229,9 @@ function App() {
             <li><a href="mailto:ailsaanarghia@gmail.com?subject=Hello Ailsa&body=I'm captivated by your portfolio and would love to collaborate with you">Email</a></li>
           </ul>
         </div>
+
+                  
+
         <div class="footer-col hidden">
           <h4>get help</h4>
           <ul>
@@ -253,6 +261,8 @@ function App() {
            <i className="fab fa-instagram"></i> </a>
           <a href="https://www.linkedin.com/in/ailsa-anarghia-121066232/" target="_blank" rel="noopener noreferrer">
           <i className="fa-brands fa-linkedin"></i></a>
+
+          
           </div>
         </div>
       </div>
