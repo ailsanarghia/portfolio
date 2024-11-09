@@ -83,7 +83,7 @@ function App() {
               <p>I do design, I create design, I enjoy design.</p>
               <p>Mastering to export feelings through arts.</p>
             </Fade>
-            <a href="#" className="btn">
+            <a href="mailto:ailsaanarghia@gmail.com?subject=Hello Ailsa&body=I'm captivated by your portfolio and would love to collaborate with you" className="btn">
               CONTACT ME <i className="fas fa-arrow-circle-right"></i>
             </a>
           </div>
