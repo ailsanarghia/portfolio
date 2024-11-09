@@ -38,26 +38,28 @@ function App() {
       </header>
 
       <section className="home flex-center" id="home">
-        <div className="home-container">
-          <div className="media-icons">
-            <a
-              href="https://www.linkedin.com/in/ailsa-anarghia-121066232/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-linkedin"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/ailsanarghia/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="mailto:ailsaanarghia@gmail.com?subject=Hello Ailsa&body=I'm captivated by your portfolio and would love to collaborate with you">
-              <i className="fa fa-envelope"></i>
-            </a>
-          </div>
+            <div className="home-container">
+              <div class="full-container">
+                <div className="media-icons">
+                  <a
+                    href="https://www.linkedin.com/in/ailsa-anarghia-121066232/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/ailsanarghia/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                  <a href="mailto:ailsaanarghia@gmail.com?subject=Hello Ailsa&body=I'm captivated by your portfolio and would love to collaborate with you">
+                    <i className="fa fa-envelope"></i>
+                  </a>
+                </div>
+                </div>
           <div className="info">
             <Slide>
               <h2>Hi, I am Ailsa</h2>
@@ -161,12 +163,12 @@ function App() {
       </section>
 
       <section className="experience" id="experiences">
-        <div className="container flex-center">
+        <div className="container flex-center portfolio-container"> 
           <h1 className="section-title-01">Experiences</h1>
           <h2 className="section-title-02">Experiences</h2>
           <div className="content flex-center">
             <div class="page-all">
-              <div class="experience-scroll-container">
+              <div class="experience-scroll-container mobile-scroll-container">
                 <div class="m-scroll">
                   <div class="m-scroll__title">
                     <div>
@@ -438,7 +440,7 @@ function App() {
 
               <div class="extended">
                 <section className="portfolio section" id="portfolio">
-                  <div className="container flex-center">
+                  <div className="container flex-center portfolio-container">
                     <h1 className="section-title-01-portfolio">Portfolio</h1>
                     <h2 className="section-title-02-portfolio">Portfolio</h2>
                   </div>
